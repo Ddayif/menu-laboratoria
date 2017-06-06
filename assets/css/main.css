@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Vibur', cursive;
 }
 .flex-container{
 	display: flex;
@@ -38,4 +38,8 @@ a:hover{
 
 .contact{
 	border: none;/*Quita el borde de mi elemento contact*/
+}
+
+.menu{
+	display: none;	
 }
