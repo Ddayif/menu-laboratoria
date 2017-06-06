@@ -1,1 +1,40 @@
-main.css
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.flex-container{
+	display: flex;
+}
+/*Da color al navegador*/
+nav{
+	background-color: #EB5F83;
+}
+
+nav ul{
+	display: flex;/*Alinea el ul como fila*/
+	width: 100%;
+	justify-content: space-around;/*Expande el ul*/
+	padding: 0;
+}
+
+nav ul li{
+	list-style: none;
+	padding: 20px;
+ 	text-align: center;
+ }
+
+/*Quita los puntos a mi lista, da color blanco*/
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.lista{
+	border-right: 1px solid black;/*Da borde a cada elemento de la lista hacia el lado derecho*/
+	flex:auto;
+}
+
+.contact{
+	border: none;/*Quita el borde de mi elemento contact*/
+}
