@@ -1,0 +1,14 @@
+@media (min-width: 535px) and (max-width: 824px) {
+	nav{
+		background: #382929;
+		font-family: "Lobster", cursive;
+		color: white;
+	}
+	nav ul{
+		display: block;
+	}
+	.lista{
+		border-bottom: 1px solid black;
+		text-align: left;
+	}
+}

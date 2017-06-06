@@ -18,21 +18,22 @@ nav ul{
 	padding: 0;
 }
 
-nav ul li{
-	list-style: none;
-	padding: 20px;
- 	text-align: center;
- }
-
 /*Quita los puntos a mi lista, da color blanco*/
 nav ul li a{
 	text-decoration: none;
 	color: white;
 }
 
+a:hover{
+	text-decoration: underline; 
+}
+
 .lista{
 	border-right: 1px solid black;/*Da borde a cada elemento de la lista hacia el lado derecho*/
 	flex:auto;
+	list-style: none;
+	padding: 20px;
+ 	text-align: center;
 }
 
 .contact{
