@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Vibur', cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 .flex-container{
 	display: flex;
@@ -43,3 +43,4 @@ a:hover{
 .menu{
 	display: none;	
 }
+
